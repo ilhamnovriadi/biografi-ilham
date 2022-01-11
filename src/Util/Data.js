@@ -1,0 +1,2 @@
+const URL_IMAGE = "https://secure.gravatar.com/avatar/530fad609529ffb94ec906a8e198aad5?s=200&d=identicon"
+const URL_BACKGROUND = "https://gitlab.com/ilhamnovriadi/git-ilhamn/-/raw/master/hip-square.png"

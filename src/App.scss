@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+$image-background: "https://gitlab.com/ilhamnovriadi/git-ilhamn/-/raw/master/hip-square.png";
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0px;
+}
+
+.container {
+  margin: 50px auto;
+  border-radius: 20px;
+  width: 800px;
+  padding: 30px 40px;
+  border: 10px solid rgb(102, 69, 46, 50%);
+  background-image: url($image-background);
+  transition: 200ms ease;
+
+  &:hover {
+    box-shadow: 0px 30px 60px -5px rgba(55, 55, 71, 0.3);
+    transform: translate3d(0, -5px, 0);
+  }
+}
