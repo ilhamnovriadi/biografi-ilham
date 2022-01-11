@@ -1,9 +1,6 @@
 import React from "react";
 import "./index.scss";
 
-const URL_IMAGE =
-  "https://secure.gravatar.com/avatar/530fad609529ffb94ec906a8e198aad5?s=200&d=identicon";
-
 function Hubungi(props) {
   return (
     <div className="container-hubungi">

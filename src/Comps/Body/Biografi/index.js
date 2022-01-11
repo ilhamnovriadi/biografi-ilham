@@ -11,7 +11,7 @@ function Biografi(props) {
         <u>Biografi</u>
       </h2>
       <div className="con-img">
-        <img src={URL_IMAGE} />
+        <img alt="Ilham Novriadi" src={URL_IMAGE} />
       </div>
       <div className="con-text">
         <p>

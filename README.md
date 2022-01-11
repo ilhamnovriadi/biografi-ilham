@@ -1,5 +1,5 @@
-Biografi Ilham Novriadi
+# Biografi Ilham Novriadi
 
-###`npm install`
-&
-###`npm start`
+### `npm install`
+
+### `npm start`
