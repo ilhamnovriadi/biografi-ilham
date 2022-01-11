@@ -1,12 +1,22 @@
 import "./App.scss";
 import Header from "./Comps/Header";
-import Body from "./Comps/Body";
+import Biografi from "./Comps/Body/Biografi";
+import Pendidikan from "./Comps/Body/Pendidikan";
+import Kemampuan from "./Comps/Body/Kemampuan";
+import Hobi from "./Comps/Body/Hobi";
+import Hubungi from "./Comps/Body/Hubungi";
+import Footer from "./Comps/Footer";
 
 function App() {
   return (
     <div className="container">
       <Header name="Ilham Novriadi" as="Mobile Developer"/>
-      <Body name="Ilham Novriadi" as="Mobile Developer"/>
+      <Biografi/>
+      <Pendidikan/>
+      <Kemampuan />
+      <Hobi />
+      <Hubungi />
+      <Footer />
     </div>
   );
 }

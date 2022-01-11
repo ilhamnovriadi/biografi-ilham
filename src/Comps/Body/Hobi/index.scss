@@ -1,0 +1,23 @@
+@import "../../../Util/Variable.scss";
+
+.container-hobi {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+
+    h2 {
+        color: $red;
+        margin-bottom: 5px;
+    }
+
+    .con-text {
+
+        p {
+            text-align: justify;
+            font-size: 15px;
+            color: #424242;
+            text-indent: 20px;
+        }
+    }
+}

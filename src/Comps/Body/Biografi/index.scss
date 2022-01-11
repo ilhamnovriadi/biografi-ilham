@@ -1,0 +1,34 @@
+@import "../../../Util/Variable.scss";
+
+.container-biografi {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    h2 {
+        color: $red;
+        margin-bottom: 10px;
+    }
+
+    .con-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.144);
+        }
+    }
+
+    .con-text {
+        margin-block: 20px;
+
+        p {
+            text-align: justify;
+            font-size: 15px;
+            color: #424242;
+            text-indent: 20px;
+        }
+    }
+}

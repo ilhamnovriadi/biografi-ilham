@@ -18,6 +18,7 @@ function Header(props) {
       >
         {props.name} - {props.as}
       </p>
+      <div className="devider" />
     </div>
   );
 }

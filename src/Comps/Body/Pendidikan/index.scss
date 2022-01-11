@@ -1,0 +1,28 @@
+@import "../../../Util/Variable.scss";
+
+.container-pendidikan {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+
+    h2 {
+        color: $red;
+        margin-bottom: 10px;
+    }
+
+    .con-table {
+        margin-block: 5px;
+        width: 100%;
+
+        table,
+        td,
+        th {
+            border: 2px solid #424242;
+            border-collapse: collapse;
+            padding-left: 5px;
+            text-align: left;
+        }
+    }
+
+}
